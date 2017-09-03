@@ -10,7 +10,7 @@ def test_encode():
     assert ceaser.encode("ccccc", 2) == "eeeee"
 
     assert ceaser.encode("blake", 4) == "fpeoi"
-    
+
     assert ceaser.encode("", 4) == ""
 
 def test_decode():
