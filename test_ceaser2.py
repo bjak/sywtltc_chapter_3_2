@@ -3,7 +3,7 @@
 import ceaser
 
 def test_encode2():
-        
+    """Test Encode2"""    
     assert ceaser.encode("luke", 3) == "oxnh"
 
 def test_decode2():
